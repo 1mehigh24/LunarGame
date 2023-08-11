@@ -27,6 +27,7 @@ public class StatisticsScreen extends VBox {
 
     // Optionally, the handler method for the backButton if needed.
     private void handleBackButton() {
+        this.backButton = new Button("Back");
         // Logic for what happens when the back button is pressed.
     }
 
