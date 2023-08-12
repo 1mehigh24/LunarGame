@@ -8,7 +8,7 @@ import javafx.scene.layout.VBox;
 public class StatisticsScreen extends VBox {
     private TableView<String> statsTable; // Just an example; you'd want to use a model class here, not a String.
 
-    private Button backButton;
+    public Button backButton;
 
     public StatisticsScreen() {
         Label titleLabel = new Label("Game Statistics");

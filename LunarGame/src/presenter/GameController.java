@@ -1,7 +1,7 @@
 package presenter;
 
-import com.mypackage.models.Piece;
-import com.mypackage.views.GameScreen;
+import model.Piece;
+import view.GameScreen;
 
 public class GameController {
     private GameScreen gameScreen;
